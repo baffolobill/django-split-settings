@@ -3,9 +3,9 @@ style = "https://raw.githubusercontent.com/wemake-services/wemake-python-stylegu
 
 
 [tool.poetry]
-name = "django-split-settings"
+name = "python-split-settings"
 version = "1.1.0"
-description = "Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files."
+description = "Organize Python settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files."
 authors = [
   "sobolevn <mail@sobolevn.me>",
   "Visa Kopu",
@@ -22,7 +22,6 @@ repository = "https://github.com/sobolevn/django-split-settings"
 homepage = "https://django-split-settings.readthedocs.io"
 
 keywords = [
-  "django",
   "settings",
   "configuration",
   "config",
@@ -31,11 +30,6 @@ keywords = [
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Environment :: Web Environment",
-  "Framework :: Django",
-  "Framework :: Django :: 1.11",
-  "Framework :: Django :: 2.2",
-  "Framework :: Django :: 3.0",
-  "Framework :: Django :: 3.1",
   "Intended Audience :: Developers",
   "License :: OSI Approved :: BSD License",
   "Operating System :: OS Independent",
@@ -49,8 +43,6 @@ classifiers = [
 python = "^3.6"
 
 [tool.poetry.dev-dependencies]
-django = "^3.2"
-
 mypy = "^0.910"
 wemake-python-styleguide = "^0.15"
 flake8-pytest-style = "^1.5"
